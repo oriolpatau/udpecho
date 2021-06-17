@@ -24,7 +24,7 @@ server.on('listening', () => {
 });
 
 
-if(myargs[0]==='undefined')
+if(myargs.length===0)
 {
     server.bind(44300);
 }
