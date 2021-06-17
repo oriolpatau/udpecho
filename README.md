@@ -4,11 +4,13 @@ Clone the repository to your server.
 
 > git clone https://github.com/oriolpatau/udpecho.git
 
-## Excute
+udpecho uses nodeJs without any nodemodule installed.
+
+## Execute udpecho
 
 > node index.js {portNumber}
 
-## Test
+## Test with udpecho
 
 Send UDP packets to IP and portNumber and udpecho will answer these packets with the received timestamp.
 
