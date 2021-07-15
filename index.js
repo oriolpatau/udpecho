@@ -15,7 +15,7 @@ server.on('message', (msg, rinfo) => {
         //server.close();
         console.log(err);
       });
-  console.log(`server got: ${msg} from ${rinfo.address}:${rinfo.port}`);
+  console.log(`server got: ${msg} from ${rinfo.address}:${rinfo.port} time=>${dt}`);
 });
 
 server.on('listening', () => {
@@ -26,7 +26,7 @@ server.on('listening', () => {
 
 if(myargs.length===0)
 {
-    server.bind(44300);
+    server.bind(44302);
 }
 else 
 {   let numPort=myargs[0];
